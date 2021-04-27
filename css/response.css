@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@media screen and (max-width:980px){
+  header div span{
+   width: 96%;
+   left: 2%;
+  }
+  /*  타이틀  */
+  #title{
+    padding: 50px 0;
+  }
+  #title::before{
+  height: 100%;
+  }
+  #title::after{
+  height: 100%;
+  }
+  
+  #title .titlein{
+  padding: 0 30px;
+  box-sizing: border-box;
+  background-position-x: center;
+  background-origin: content-box;
+  background-size: cover;
+  background-image: none;  
+  }
+  #title .titlein h2{
+  text-align: center;
+  }
+  #title .titlein h2 span{
+  width: 100%;
+  left: 0;
+  margin-bottom: 28px;
+  }
+  #title .titlein h2::after{
+   content: "";
+   width: 100%;
+   height: 200px;
+   display: block; 
+   background-image: url(https://images.unsplash.com/photo-1462965326201-d02e4f455804?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); 
+   margin-top: 20px;
+  }
+  /* 콘서트  */
+  section .concert::before{
+    
+  font-size: 25vw;
+  }
+  section .concert .concert1{
+    
+  margin-left: 2%;
+  }
+  section .concert .concert1 h2{
+  font-size: 5.2020vw;
+  }
+  section .concert .concert2 ul{
+  width: 204.0816vw;
+  }
+  section .concert .concert2 ul li{
+  width: 19.3877vw;
+  }
+  
+  section .concert .concert2 ul li a::before{
+  width: 15.3061vw;
+  height: 21.4285vw;
+  }
+  section .concert .concert2 ul li a span{
+    font-size: 1.6326vw;
+  }
+/*  앨범  */
+  div.album div{
+   padding:8.1632vw 0;
+  }
+  div.album div h2{
+  font-size: 6.7346vw;
+  }
+  div.album div ul.summary > li::before{
+  width: 20.2244vw;
+  height: 20.2244vw;
+  left: 28.9795vw;
+  top: 7.1428vw;
+  }
+  div.album div ul.summary li img{
+  width: 40%;
+  position: static;
+  float: left;
+  }
+  div.album div ul.summary > li{
+  padding: 0 15px;
+  }
+  div.album div ul.summary li ul{
+  float: right;
+  width: 40%;
+  }
+  div.album div ul.summary li ul li{
+   font-size: 17px; 
+  }
+  div.album div ul.summary li p{
+  clear: both;
+  padding-top: 26px;
+  }
+  div.album div ul.summary li a{
+    
+  }
+ /*  네트워크  */
+  div.sns div ul li{
+  width: 44%;
+  margin-bottom: 3%;
+  }
+  div.sns div ul li a h3{
+  min-height: 35px;
+  }
+/*  하단영역  */
+  footer{
+  margin-top: 8.1632vw;
+  padding: 8.1632vw 0;
+  text-align: center;
+  }
+  footer > div h1{
+  float: none;
+  margin: 0;
+  }
+  footer > div div{
+    
+  float: none;
+  }
+  footer > div > ul{
+  float: none;
+  }
+  footer > div div address br.addr{
+  display: block;
+  }
+}
+@media screen and (max-width:768px){
+  html,body{
+    font-size: 14px;
+  }
+  header{
+  padding-bottom: 20px;
+  }
+  header div ul{
+  display: none;
+  }
+ /* 타이틀   */
+  #title{
+  padding: 6.5104vw 0;
+  }
+  #title .titlein h2{
+  font-size: 7.8125vw;
+  margin-bottom: 7.8125vw;
+  }
+  #title .titlein h2 span{
+    font-size: 6.5104vw;
+  }
+  #title .titlein ul.apply{
+  margin: 2.604vw 0;
+  }
+  #title .titlein p{
+    
+  text-align: center;
+  }
+  #title .titlein ul.apply,#title .titlein ul.sns{
+  text-align: center;
+  }
+  section .concert .concertin{
+  padding: 16.927vw 0;
+  }
+  section .concert .concert1{
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 0 5%;
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  section .concert .concert2{
+  float: none;
+  width: auto;
+  padding: 0 5%;
+  }
+  section .concert .concert2 ul{
+  padding-left: 5%;
+  }
+  div.album div ul.summary > li{
+  text-align: center;
+  }
+  div.album div ul.summary li img{
+  width: auto;
+  float: none;
+  }
+  div.album div ul.summary li ul{
+  float: none;
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 20px;
+  }
+  div.album div ul.summary li p{
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+  }
+  div.sns div ul li{
+  width: 88%;
+  }
+  
+}
